@@ -39,7 +39,7 @@
 
 # Modelo Dimensional (Star Schema)
 
-![Star Schema](star_schema_universidade.png)
+![Star Schema](Star Schema - Universidade.png)
 
 | Tabela | Tipo | Conteúdo |
 |---|---|---|
@@ -58,7 +58,7 @@ Todas as relações são **1:N**, da dimensão para a fato.
 - Quais professores atendem mais alunos matriculados?
 
 # Como Reproduzir
-1. Abra o `star_schema_universidade.sql` no **MySQL Workbench**, conectado ao servidor, e execute (⚡). Isso cria o schema `universidade_dw` com as 6 tabelas;
+1. Abra o `Star Schema - Universidade.sql` no **MySQL Workbench**, conectado ao servidor, e execute (⚡). Isso cria o schema `universidade_dw` com as 6 tabelas;
 2. Para o diagrama, use o **dbdiagram.io**: cole o modelo das tabelas e das relações (uma relação 1:N de cada dimensão para a fato) e organize as tabelas com a fato ao centro;
 3. Exporte em **Export > Export to PNG**.
 
@@ -66,8 +66,8 @@ Todas as relações são **1:N**, da dimensão para a fato.
 
 | Arquivo | Descrição |
 |---|---|
-| `star_schema_universidade.png` | Imagem do esquema em estrela, feita no [dbdiagram.io](https://dbdiagram.io/) |
-| `star_schema_universidade.sql` | Script de criação das tabelas fato e dimensão (MySQL) |
+| `Star Schema - Universidade.png` | Imagem do esquema em estrela, feita no [dbdiagram.io](https://dbdiagram.io/) |
+| `Star Schema - Universidade.sql` | Script de criação das tabelas fato e dimensão (MySQL) |
 
 # Autor
 - Kelwin Paschoal
